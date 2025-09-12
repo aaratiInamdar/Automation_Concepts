@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T13:11:14 IST" name="Default suite" finished-at="2025-09-03T13:18:30 IST" duration-ms="436645">
+    <groups>
+    </groups>
+    <test started-at="2025-09-03T13:11:14 IST" name="Default test" finished-at="2025-09-03T13:18:30 IST" duration-ms="436645">
+      <class name="Tasks.MMT_WITH_DYNAMIC_CALENDER">
+        <test-method signature="handleDynamicCalender()[pri:0, instance:Tasks.MMT_WITH_DYNAMIC_CALENDER@34e9fd99]" started-at="2025-09-03T13:11:14 IST" name="handleDynamicCalender" finished-at="2025-09-03T13:18:30 IST" duration-ms="436488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleDynamicCalender -->
+      </class> <!-- Tasks.MMT_WITH_DYNAMIC_CALENDER -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
