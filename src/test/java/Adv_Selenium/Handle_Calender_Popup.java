@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 public class Handle_Calender_Popup {
 	WebDriver driver;
-
 	public void baseMethod() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -89,14 +88,13 @@ public class Handle_Calender_Popup {
 
 	@Test
 	public void handleDoubleCalenderPopup_using_KSRTC() {
-		String month = "September 2025";
-		int date = 30;
+//		String month = "September 2025";
+//		int date = 30;
 		baseMethod();
 		driver.get("https://ksrtc.in/");
 		driver.findElement(By.xpath("//label[@for=\"departDate\"]")).click();
 		driver.findElement(By.xpath("//span[.='Next']")).click();
-
-//		 this is application issue .since buses are not available so that arrow is not working
-
+//		 this is application issue .since buses are not available so that arrow is not working	
+		
 	}
 }

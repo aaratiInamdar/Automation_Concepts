@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tasks.MMT_WITH_DYNAMIC_CALENDER">
+      <class name="Adv_Selenium.RedBus">
         <methods>
-          <include name="handleDynamicCalender"/>
+          <include name="redBus"/>
         </methods>
-      </class> <!-- Tasks.MMT_WITH_DYNAMIC_CALENDER -->
+      </class> <!-- Adv_Selenium.RedBus -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
